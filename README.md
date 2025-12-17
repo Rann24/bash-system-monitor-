@@ -8,3 +8,11 @@ This project is a Bash script that automates the monitoring of system health (CP
 - **Connectivity Logic:** Uses `curl` to verify internet access handling.
 - **Automated Logging:** Appends data to `system_history.log`.
 - **Cron Scheduling:** Designed for 24/7 background execution.
+
+## How to Run
+1. Make the script executable:
+   `chmod +x sys_logger.sh`
+2. Run manually:
+   `./sys_logger.sh`
+3. View the logs:
+   `tail -f system_history.log`
